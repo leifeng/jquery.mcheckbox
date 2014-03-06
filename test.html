@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="jquery-1.7.min.js"></script>
+    <script src="jquery.mcheckbox.js"></script>
+
+</head>
+<body>
+<div class="mcheckbox">
+    <label><input name="checkbox" type="checkbox" value="魅力之城1">&nbsp;<a>魅力之城1<span>(2700元/㎡)</span>&nbsp;</a></label>
+    <label><input name="checkbox" type="checkbox" value="魅力之城2">&nbsp;<a>魅力之城2<span>(2700元/㎡)</span>&nbsp;</a></label>
+    <label><input name="checkbox" type="checkbox" value="魅力之城3">&nbsp;<a>魅力之城3<span>(2700元/㎡)</span>&nbsp;</a></label>
+    <label><input name="checkbox" type="checkbox" value="魅力之城4">&nbsp;<a>魅力之城4<span>(2700元/㎡)</span>&nbsp;</a></label>
+    <label><input name="checkbox" type="checkbox" value="魅力之城5">&nbsp;<a>魅力之城5<span>(2700元/㎡)</span>&nbsp;</a></label>
+</div>
+<div class="checkedOut"></div>
+<a class="c">清空所有</a>
+<input id="aa" name="aa">
+</body>
+<script>
+    $('.mcheckbox').mcheckbox({outDiv:'.checkedOut',hiddenInput:'#aa',outClear:'.c'});
+
+</script>
+</html>
